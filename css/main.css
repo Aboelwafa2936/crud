@@ -85,25 +85,14 @@ footer .btn:hover::before{
     background: linear-gradient(to top, rgb(241, 177, 151), rgb(185, 77, 161));
 }
 
-/* .btn-outline-danger {
-    background-color: #003366; 
-    color: #ffffff; 
-}
-
-
-.btn-outline-success{
-    background-color: #FFD1DC; 
-    color: #000000; 
-} */
-
 .btn-danger {
     width: 100%;
     margin-bottom: 10px;
     display: block;
     outline: none;
     border: none;
-    background-color: #36454F; /* Charcoal for contrast */
-    color: #ffffff; /* White text for readability */
+    background-color: #36454F;
+    color: #ffffff; 
 }
 
 /* Update button */
@@ -112,8 +101,8 @@ footer .btn:hover::before{
     display: block;
     outline: none;
     border: none;
-    background-color: #FFF0F5; /* Lavender blush for harmony */
-    color: #000000; /* Black text for readability */
+    background-color: #FFF0F5;
+    color: #000000; 
 }
 
 .invalid-feedback{
@@ -126,7 +115,7 @@ footer .btn:hover::before{
         display: inline;
         width: auto;
     }
-    .btn-success{
+    .btns .btn-success{
         float: right;
     }
 }
